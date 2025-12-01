@@ -13,7 +13,7 @@ def download_input(day: int):
     with open(".session", "r") as f:
         cookie = f.read()
     
-    url = f"https://adventofcode.com/2024/day/{day}/input"
+    url = f"https://adventofcode.com/2025/day/{day}/input"
     cookies = {"session": cookie}
     r = requests.get(url, cookies=cookies)
 
